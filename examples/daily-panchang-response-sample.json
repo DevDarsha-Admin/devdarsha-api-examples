@@ -1,0 +1,126 @@
+{
+  "data": {
+    "date": "2026-04-15",
+    "weekday": "Wednesday",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "city": "Ujjain",
+    "city_id": "ujjain",
+    "calendars": {
+      "vikram_samvat": 2083,
+      "shaka_samvat": 1948
+    },
+    "sun": {
+      "rise": "15-04-2026 05:46:10",
+      "set": "15-04-2026 18:48:33",
+      "longitude": 25.71,
+      "rashi": "Mesha"
+    },
+    "moon": {
+      "rise": "15-04-2026 04:12:55",
+      "set": "15-04-2026 17:03:21",
+      "rashi": "Meena"
+    },
+    "lunar_month": {
+      "name": "Chaitra",
+      "adhik": false
+    },
+    "adhik": false,
+    "lunar_month_label": "Chaitra",
+    "lunar_context": {
+      "lunar_month": "Chaitra",
+      "is_adhik": false,
+      "adhik": false,
+      "lunar_month_label": "Chaitra"
+    },
+    "computation": {
+      "system": "drik",
+      "ayanamsha": "Lahiri",
+      "ayanamsa_value": 24.21794,
+      "coordinate_type": "geocentric",
+      "clipping": "civil_day_sunrise_to_sunrise",
+      "tithi_method": "udaya_tithi",
+      "slots_anchored_at": "sunrise"
+    },
+    "tags": ["krishna_paksha", "trayodashi"],
+    "tithi": [
+      {
+        "number": 28,
+        "name": "Trayodashi",
+        "paksha": "Krishna",
+        "start": "14-04-2026 22:01:18",
+        "end": "15-04-2026 23:34:42"
+      }
+    ],
+    "nakshatra": [
+      {
+        "number": 25,
+        "name": "Purva Bhadrapada",
+        "start": "15-04-2026 02:18:40",
+        "end": "16-04-2026 04:05:12"
+      }
+    ],
+    "yoga": [
+      {
+        "number": 18,
+        "name": "Variyana",
+        "start": "14-04-2026 19:44:05",
+        "end": "15-04-2026 20:58:51"
+      }
+    ],
+    "karana": [
+      {
+        "number": 7,
+        "name": "Vanija",
+        "start": "15-04-2026 11:18:00",
+        "end": "15-04-2026 23:34:42"
+      }
+    ],
+    "muhurat": {
+      "rahu_kaal": { "start": "15-04-2026 12:17:21", "end": "15-04-2026 13:53:08" },
+      "gulika_kaal": { "start": "15-04-2026 10:41:34", "end": "15-04-2026 12:17:21" },
+      "yamaganda_kaal": { "start": "15-04-2026 07:21:57", "end": "15-04-2026 08:57:44" },
+      "abhijit": { "start": "15-04-2026 11:51:30", "end": "15-04-2026 12:43:13" },
+      "brahma": { "start": "15-04-2026 04:09:42", "end": "15-04-2026 04:57:56" }
+    },
+    "choghadiya": [
+      { "period": "day", "type": "Shubh", "quality": "good", "start": "15-04-2026 05:46:10", "end": "15-04-2026 07:21:57" },
+      { "period": "day", "type": "Rog", "quality": "bad", "start": "15-04-2026 07:21:57", "end": "15-04-2026 08:57:44" },
+      { "period": "night", "type": "Amrit", "quality": "good", "start": "15-04-2026 18:48:33", "end": "15-04-2026 20:23:00" }
+    ],
+    "festivals": {
+      "total": 1,
+      "data": [
+        {
+          "id": "pradosh-vrat-krishna",
+          "name": "Pradosh Vrat",
+          "slug": "pradosh-vrat",
+          "type": "vrat",
+          "category": "observance",
+          "observed_in": ["IN"],
+          "start": "15-04-2026 18:48:33",
+          "end": "15-04-2026 20:58:00",
+          "duration_note": "Evening (pradosh kaal)"
+        }
+      ]
+    },
+    "metadata": {
+      "api_version": "2.0",
+      "engine": "devdarsha-engine",
+      "ayanamsha": "Lahiri",
+      "ayanamsa_used": 24.21794,
+      "resolved_via": "city_id",
+      "region_variant": "default",
+      "region_resolved_via": "regional_fallback",
+      "offline": false
+    }
+  },
+  "meta": {
+    "version": "1.0",
+    "computed_at": "2026-04-15T00:00:00.000Z",
+    "resolved_timezone": "Asia/Kolkata",
+    "data_source": "live",
+    "cache_age_seconds": 0
+  },
+  "dev_notes": []
+}

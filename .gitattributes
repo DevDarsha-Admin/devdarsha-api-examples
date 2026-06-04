@@ -1,0 +1,3 @@
+# Keep line endings consistent across platforms. Scripts and YAML stay LF so
+# CI shell steps and interpreters behave the same everywhere.
+* text=auto eol=lf
