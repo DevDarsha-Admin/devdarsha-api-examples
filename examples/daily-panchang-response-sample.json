@@ -1,0 +1,324 @@
+{
+  "data": {
+    "date": "2026-04-15",
+    "weekday": "Wednesday",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "city": "Ujjain",
+    "city_id": "ujjain",
+    "bengali_date": {
+      "day": 1,
+      "month": "Baishakh",
+      "year": 1433
+    },
+    "calendars": {
+      "vikram_samvat": 2083,
+      "shaka_samvat": 1948,
+      "bengali": {
+        "day": 1,
+        "month": "Baishakh",
+        "year": 1433
+      }
+    },
+    "sun": {
+      "rise": "15-04-2026 06:06:30",
+      "set": "15-04-2026 18:47:38",
+      "longitude": 25.05,
+      "rashi": "Mesha"
+    },
+    "moon": {
+      "rise": "15-04-2026 04:25:00",
+      "set": "15-04-2026 16:44:28",
+      "rashi": "Kumbha"
+    },
+    "lunar_month": {
+      "name": "Chaitra",
+      "adhik": false
+    },
+    "adhik": false,
+    "lunar_month_label": "Chaitra",
+    "lunar_context": {
+      "lunar_month": "Chaitra",
+      "is_adhik": false,
+      "adhik": false,
+      "lunar_month_label": "Chaitra"
+    },
+    "computation": {
+      "system": "drik",
+      "ayanamsha": "Lahiri",
+      "ayanamsa_value": 24.21733,
+      "coordinate_type": "geocentric",
+      "clipping": "civil_day_sunrise_to_sunrise",
+      "tithi_method": "udaya_tithi",
+      "slots_anchored_at": "sunrise"
+    },
+    "tags": [
+      "krishna_paksha",
+      "trayodashi"
+    ],
+    "tithi": [
+      {
+        "number": 28,
+        "name": "Trayodashi",
+        "paksha": "Krishna",
+        "start": "15-04-2026 06:06:30",
+        "end": "15-04-2026 22:32:45"
+      }
+    ],
+    "nakshatra": [
+      {
+        "number": 25,
+        "name": "Purva Bhadrapada",
+        "start": "15-04-2026 06:06:30",
+        "end": "15-04-2026 15:22:07"
+      },
+      {
+        "number": 26,
+        "name": "Uttara Bhadrapada",
+        "start": "15-04-2026 15:22:07",
+        "end": "16-04-2026 13:58:22"
+      }
+    ],
+    "yoga": [
+      {
+        "number": 25,
+        "name": "Brahma",
+        "start": "15-04-2026 06:06:30",
+        "end": "15-04-2026 13:23:22"
+      },
+      {
+        "number": 26,
+        "name": "Indra",
+        "start": "15-04-2026 13:23:22",
+        "end": "16-04-2026 10:35:52"
+      }
+    ],
+    "karana": [
+      {
+        "number": 55,
+        "name": "Garaja",
+        "start": "15-04-2026 00:14:00",
+        "end": "15-04-2026 11:28:22"
+      },
+      {
+        "number": 56,
+        "name": "Vanija",
+        "start": "15-04-2026 11:28:22",
+        "end": "16-04-2026 06:06:30"
+      }
+    ],
+    "muhurat": {
+      "rahu_kaal": {
+        "start": "15-04-2026 12:27:04",
+        "end": "15-04-2026 14:02:12"
+      },
+      "gulika_kaal": {
+        "start": "15-04-2026 10:51:55",
+        "end": "15-04-2026 12:27:04"
+      },
+      "yamaganda_kaal": {
+        "start": "15-04-2026 07:41:38",
+        "end": "15-04-2026 09:16:47"
+      },
+      "abhijit": {
+        "start": null,
+        "end": null
+      },
+      "brahma": {
+        "start": "15-04-2026 04:30:30",
+        "end": "15-04-2026 05:18:30"
+      },
+      "vijaya": {
+        "start": "15-04-2026 14:59:17",
+        "end": "15-04-2026 15:50:02"
+      },
+      "varjyam": {
+        "start": "15-04-2026 12:27:04",
+        "end": "15-04-2026 13:43:10"
+      },
+      "durmuhurta": {
+        "start": "15-04-2026 07:36:30",
+        "end": "15-04-2026 09:06:30"
+      },
+      "amrit_siddhi": {
+        "start": "15-04-2026 17:06:08",
+        "end": "15-04-2026 17:31:31"
+      }
+    },
+    "choghadiya": [
+      {
+        "period": "day",
+        "type": "Labh",
+        "quality": "beneficial",
+        "start": "15-04-2026 06:06:30",
+        "end": "15-04-2026 07:41:38"
+      },
+      {
+        "period": "day",
+        "type": "Amrit",
+        "quality": "very_auspicious",
+        "start": "15-04-2026 07:41:38",
+        "end": "15-04-2026 09:16:47"
+      },
+      {
+        "period": "day",
+        "type": "Kaal",
+        "quality": "inauspicious",
+        "start": "15-04-2026 09:16:47",
+        "end": "15-04-2026 10:51:55"
+      },
+      {
+        "period": "day",
+        "type": "Shubh",
+        "quality": "auspicious",
+        "start": "15-04-2026 10:51:55",
+        "end": "15-04-2026 12:27:04"
+      },
+      {
+        "period": "day",
+        "type": "Rog",
+        "quality": "inauspicious",
+        "start": "15-04-2026 12:27:04",
+        "end": "15-04-2026 14:02:12"
+      },
+      {
+        "period": "day",
+        "type": "Udveg",
+        "quality": "inauspicious",
+        "start": "15-04-2026 14:02:12",
+        "end": "15-04-2026 15:37:21"
+      },
+      {
+        "period": "day",
+        "type": "Char",
+        "quality": "neutral",
+        "start": "15-04-2026 15:37:21",
+        "end": "15-04-2026 17:12:29"
+      },
+      {
+        "period": "day",
+        "type": "Labh",
+        "quality": "beneficial",
+        "start": "15-04-2026 17:12:29",
+        "end": "15-04-2026 18:47:38"
+      },
+      {
+        "period": "night",
+        "type": "Rog",
+        "quality": "inauspicious",
+        "start": "15-04-2026 18:47:38",
+        "end": "15-04-2026 20:12:29"
+      },
+      {
+        "period": "night",
+        "type": "Udveg",
+        "quality": "inauspicious",
+        "start": "15-04-2026 20:12:29",
+        "end": "15-04-2026 21:37:21"
+      },
+      {
+        "period": "night",
+        "type": "Char",
+        "quality": "neutral",
+        "start": "15-04-2026 21:37:21",
+        "end": "15-04-2026 23:02:12"
+      },
+      {
+        "period": "night",
+        "type": "Labh",
+        "quality": "beneficial",
+        "start": "15-04-2026 23:02:12",
+        "end": "16-04-2026 00:27:04"
+      },
+      {
+        "period": "night",
+        "type": "Amrit",
+        "quality": "very_auspicious",
+        "start": "16-04-2026 00:27:04",
+        "end": "16-04-2026 01:51:55"
+      },
+      {
+        "period": "night",
+        "type": "Kaal",
+        "quality": "inauspicious",
+        "start": "16-04-2026 01:51:55",
+        "end": "16-04-2026 03:16:47"
+      },
+      {
+        "period": "night",
+        "type": "Shubh",
+        "quality": "auspicious",
+        "start": "16-04-2026 03:16:47",
+        "end": "16-04-2026 04:41:38"
+      },
+      {
+        "period": "night",
+        "type": "Rog",
+        "quality": "inauspicious",
+        "start": "16-04-2026 04:41:38",
+        "end": "16-04-2026 06:06:30"
+      }
+    ],
+    "festivals": {
+      "total": 2,
+      "data": [
+        {
+          "id": "2026-04-15_PRADOSH",
+          "name": "Bhauma Pradosh",
+          "slug": "bhauma-pradosh",
+          "type": "vrat",
+          "category": "hindu_shaiva",
+          "observed_in": [
+            "all-india"
+          ],
+          "start": "15-04-2026 17:17:38",
+          "end": "15-04-2026 19:47:38",
+          "duration_note": "2h 30m",
+          "note": "Pradosh: 1.5 hrs before sunset to 1 hr after"
+        },
+        {
+          "id": "2026-04-15_MASIK_SHIVRATRI",
+          "name": "Masik Shivratri",
+          "slug": "masik-shivratri",
+          "type": "vrat",
+          "category": "hindu_shaiva",
+          "observed_in": [
+            "all-india"
+          ],
+          "start": "15-04-2026 22:32:38",
+          "end": "16-04-2026 20:12:38",
+          "duration_note": "21h 40m (ends next day)"
+        }
+      ]
+    },
+    "metadata": {
+      "api_version": "2.0",
+      "engine": "v5.0",
+      "ayanamsha": "Lahiri",
+      "ayanamsa_used": 24.21733,
+      "resolved_via": "exact_match",
+      "resolved_lat": 23.1765,
+      "resolved_lon": 75.7885,
+      "offline": true,
+      "region_variant": "north_india",
+      "region_resolved_via": "exact_match",
+      "compute_time_ms": 372,
+      "last_updated": "2026-06-21T10:57:57.916Z"
+    }
+  },
+  "meta": {
+    "version": "1.0",
+    "computed_at": "2026-06-21T10:57:57.916Z",
+    "resolved_timezone": "Asia/Kolkata",
+    "data_source": "live",
+    "cache_age_seconds": 0
+  },
+  "dev_notes": [],
+  "profile": "emerald",
+  "features": {
+    "muhurat": true,
+    "choghadiya": true,
+    "metadata": true,
+    "monthly_api": true
+  }
+}

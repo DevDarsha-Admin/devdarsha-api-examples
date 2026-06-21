@@ -1,0 +1,888 @@
+openapi: 3.0.3
+
+info:
+  title: DevDarsha API
+  version: 1.0.0
+  description: |
+    DevDarsha provides developer-ready Panchang data for daily and monthly Hindu calendar experiences.
+
+    The API returns Drik Panchang calculations with Lahiri ayanamsha, city-specific sunrise anchoring,
+    tithi, nakshatra, yoga, karana, muhurat windows, choghadiya, sun and moon timings, festival markers,
+    Bengali calendar data, Vikram Samvat, Shaka Samvat, and Adhik Maas flags.
+
+    Current supported Panchang city IDs are `kolkata`, `dhaka`, `delhi`, `mumbai`, `chennai`,
+    `bangalore`, `hyderabad`, `varanasi`, `jaipur`, `ahmedabad`, and `ujjain`.
+
+    ### Getting Started
+    1. Get your API key from the DevDarsha platform at [platform.devdarsha.com](https://platform.devdarsha.com).
+    2. Send your key in the `X-Api-Key` request header (the `?api_key=` query parameter also works).
+    3. POST request parameters as a JSON body (`Content-Type: application/json`).
+    4. Explore plans at [platform.devdarsha.com/pricing](https://platform.devdarsha.com/pricing).
+
+    ### Coverage limits
+    Paid plans are metered by a coverage meter: the number of distinct `(location, date)` pairs an
+    account retrieves, enforced per account on a fixed UTC calendar month (plus a UTC-day ceiling).
+    Successful data responses carry `X-Coverage-*` headers so clients can self-throttle. A `429` may
+    therefore mean either `rate_limit_exceeded` (request quota) or a coverage error — they are
+    orthogonal.
+
+    ### Plans
+    | Plan      | Type       |
+    |-----------|------------|
+    | Free      | Consumer   |
+    | Amethyst  | Consumer   |
+    | Sapphire  | Consumer   |
+    | Emerald   | Consumer   |
+    | Aura      | Enterprise |
+    | Nova      | Enterprise |
+    | Cosmos    | Enterprise |
+  
+  contact:
+    name: DevDarsha Support
+    url: https://devdarsha.com/contact
+    email: support@devdarsha.com
+  license:
+    name: Commercial
+    url: https://devdarsha.com/terms
+  x-logo:
+    url: https://devdarsha.com/logo/og-default.png
+    altText: DevDarsha
+
+servers:
+  - url: https://panchang.devdarsha.com/v1
+    description: Production Panchang API server
+
+externalDocs:
+  description: DevDarsha API documentation and platform key management
+  url: https://platform.devdarsha.com/documentation
+
+tags:
+  - name: Panchang
+    description: Daily, monthly, and yearly Panchang data
+
+security:
+  - ApiKeyHeader: []
+  - ApiKeyQuery: []
+
+paths:
+  /panchang/daily:
+    post:
+      tags:
+        - Panchang
+      summary: Get daily Panchang
+      description: |
+        Returns a complete daily Panchang payload for a date and supported city.
+        Results include tithi, nakshatra, yoga, karana, sun and moon timings,
+        muhurat windows, choghadiya, festivals, calendar years, and computation metadata.
+      operationId: getDailyPanchang
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DailyRequest"
+      responses:
+        "200":
+          description: Daily Panchang response
+          headers:
+            X-Coverage-Remaining:
+              $ref: "#/components/headers/CoverageRemaining"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DailyPanchangResponse"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/PlanRequired"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "503":
+          $ref: "#/components/responses/ServiceUnavailable"
+
+  /panchang/monthly:
+    post:
+      tags:
+        - Panchang
+      summary: Get monthly Panchang
+      description: |
+        Returns Panchang data for every day in a requested month and supported city.
+        Monthly payloads include day-level festival data and Adhik Maas context where applicable.
+        Requires an Amethyst plan or higher.
+      operationId: getMonthlyPanchang
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MonthlyRequest"
+      responses:
+        "200":
+          description: Monthly Panchang response
+          headers:
+            X-Coverage-Remaining:
+              $ref: "#/components/headers/CoverageRemaining"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MonthlyPanchangResponse"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/PlanRequired"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "503":
+          $ref: "#/components/responses/ServiceUnavailable"
+
+  /panchang/yearly:
+    post:
+      tags:
+        - Panchang
+      summary: Get yearly Panchang
+      description: |
+        Returns a full calendar year of Panchang data — all 12 months, each with every day.
+        The route fans out to 12 month computations, so it reports `X-Quota-Cost: 12`. A month
+        that could not be computed comes back with an `error` field instead of day data and the
+        response carries `X-Degraded: true`. Requires a Sapphire plan or higher.
+      operationId: getYearlyPanchang
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/YearlyRequest"
+      responses:
+        "200":
+          description: Yearly Panchang response
+          headers:
+            X-Quota-Cost:
+              description: Number of quota units consumed (12 for a full year).
+              schema:
+                type: integer
+                example: 12
+            X-Coverage-Remaining:
+              $ref: "#/components/headers/CoverageRemaining"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/YearlyPanchangResponse"
+        "400":
+          $ref: "#/components/responses/BadRequest"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "403":
+          $ref: "#/components/responses/PlanRequired"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+        "503":
+          $ref: "#/components/responses/ServiceUnavailable"
+
+components:
+  securitySchemes:
+    ApiKeyHeader:
+      type: apiKey
+      in: header
+      name: X-Api-Key
+      description: "API key available from the DevDarsha platform, sent in the `X-Api-Key` header."
+    ApiKeyQuery:
+      type: apiKey
+      in: query
+      name: api_key
+      description: "Alternative to the header. Example: `?api_key=YOUR_API_KEY`."
+
+  headers:
+    CoverageRemaining:
+      description: |
+        Distinct location-date pairs remaining in the current UTC month for this account. Responses
+        also include `X-Coverage-Limit`, `X-Coverage-Used`, and the `X-Coverage-Daily-*` trio.
+      schema:
+        type: integer
+        example: 178
+
+  schemas:
+    CityId:
+      type: string
+      description: Supported Panchang city ID (works on all plans).
+      enum:
+        - kolkata
+        - dhaka
+        - delhi
+        - mumbai
+        - chennai
+        - bangalore
+        - hyderabad
+        - varanasi
+        - jaipur
+        - ahmedabad
+        - ujjain
+      example: kolkata
+
+    LocationProps:
+      type: object
+      description: |
+        Provide `city_id` (all plans) OR `lat`+`lon` (Amethyst plan and up). `faith_filter` and
+        `timezone` are optional on every route.
+      properties:
+        city_id:
+          $ref: "#/components/schemas/CityId"
+        lat:
+          type: number
+          description: Latitude (requires Amethyst plan or higher; pair with `lon`).
+          example: 23.1765
+        lon:
+          type: number
+          description: Longitude (requires Amethyst plan or higher; pair with `lat`).
+          example: 75.7885
+        faith_filter:
+          type: string
+          enum: [hindu, islamic, sikh, buddhist, christian, all]
+          example: hindu
+        timezone:
+          type: string
+          example: Asia/Kolkata
+
+    DailyRequest:
+      allOf:
+        - $ref: "#/components/schemas/LocationProps"
+        - type: object
+          required: [date]
+          properties:
+            date:
+              type: string
+              format: date
+              description: Gregorian date in YYYY-MM-DD format.
+              example: "2026-06-08"
+
+    MonthlyRequest:
+      allOf:
+        - $ref: "#/components/schemas/LocationProps"
+        - type: object
+          description: Supply either `date` (YYYY-MM) or both `year` and `month`.
+          properties:
+            date:
+              type: string
+              pattern: "^\\d{4}-\\d{2}$"
+              description: Month as YYYY-MM (alternative to year + month).
+              example: "2026-06"
+            year:
+              type: integer
+              minimum: 1900
+              maximum: 2100
+              example: 2026
+            month:
+              type: integer
+              minimum: 1
+              maximum: 12
+              example: 6
+
+    YearlyRequest:
+      allOf:
+        - $ref: "#/components/schemas/LocationProps"
+        - type: object
+          required: [year]
+          properties:
+            year:
+              type: integer
+              minimum: 1900
+              maximum: 2100
+              example: 2026
+    DailyPanchangResponse:
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/PanchangDay"
+        meta:
+          $ref: "#/components/schemas/ResponseMeta"
+        dev_notes:
+          type: array
+          items:
+            type: string
+        profile:
+          type: string
+          example: emerald
+        features:
+          $ref: "#/components/schemas/FeatureFlags"
+
+    MonthlyPanchangResponse:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            month:
+              type: string
+              pattern: "^\\d{4}-\\d{2}$"
+              example: "2026-06"
+            city:
+              type: string
+              example: Kolkata
+            city_id:
+              type: string
+              example: kolkata
+            timezone:
+              type: string
+              example: Asia/Kolkata
+            utc_offset:
+              type: string
+              example: "+05:30"
+            total_days:
+              type: integer
+              example: 30
+            metadata:
+              $ref: "#/components/schemas/ApiMetadata"
+            compute_ms:
+              type: integer
+              example: 34
+            days:
+              type: array
+              items:
+                $ref: "#/components/schemas/PanchangDay"
+        meta:
+          $ref: "#/components/schemas/ResponseMeta"
+        dev_notes:
+          type: array
+          items:
+            type: string
+        profile:
+          type: string
+          example: emerald
+        features:
+          $ref: "#/components/schemas/FeatureFlags"
+
+    YearlyPanchangResponse:
+      type: object
+      properties:
+        data:
+          type: object
+          properties:
+            year:
+              type: integer
+              example: 2026
+            months:
+              type: array
+              description: Twelve entries in calendar order. A month that failed carries `error`/`message` instead of `days`.
+              items:
+                type: object
+                properties:
+                  month:
+                    type: string
+                    pattern: "^\\d{4}-\\d{2}$"
+                    description: Month as YYYY-MM.
+                    example: "2026-06"
+                  month_name:
+                    type: string
+                    example: June
+                  city:
+                    type: string
+                    example: Ujjain
+                  city_id:
+                    type: string
+                    example: ujjain
+                  timezone:
+                    type: string
+                    example: Asia/Kolkata
+                  utc_offset:
+                    type: string
+                    example: "+05:30"
+                  total_days:
+                    type: integer
+                    example: 30
+                  metadata:
+                    $ref: "#/components/schemas/ApiMetadata"
+                  compute_ms:
+                    type: integer
+                    example: 34
+                  days:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/PanchangDay"
+                  error:
+                    type: string
+                    nullable: true
+                    example: month_unavailable
+                  message:
+                    type: string
+                    nullable: true
+                    example: Data for June could not be retrieved.
+        meta:
+          $ref: "#/components/schemas/ResponseMeta"
+        dev_notes:
+          type: array
+          items:
+            type: string
+
+    PanchangDay:
+      type: object
+      properties:
+        date:
+          type: string
+          format: date
+          example: "2026-06-08"
+        weekday:
+          type: string
+          example: Monday
+        timezone:
+          type: string
+          example: Asia/Kolkata
+        utc_offset:
+          type: string
+          example: "+05:30"
+        city:
+          type: string
+          example: Kolkata
+        city_id:
+          type: string
+          example: kolkata
+        bengali_date:
+          $ref: "#/components/schemas/RegionalDate"
+        calendars:
+          $ref: "#/components/schemas/Calendars"
+        sun:
+          $ref: "#/components/schemas/SunInfo"
+        moon:
+          $ref: "#/components/schemas/MoonInfo"
+        lunar_month:
+          $ref: "#/components/schemas/LunarMonth"
+        adhik:
+          type: boolean
+          description: True when the day falls in Adhik Maas.
+          example: false
+        lunar_month_label:
+          type: string
+          example: Jyeshtha
+        lunar_context:
+          $ref: "#/components/schemas/LunarContext"
+        computation:
+          $ref: "#/components/schemas/Computation"
+        tags:
+          type: array
+          items:
+            type: string
+          example:
+            - krishna_paksha
+            - ashtami
+        tithi:
+          type: array
+          items:
+            $ref: "#/components/schemas/PanchangSegment"
+        nakshatra:
+          type: array
+          items:
+            $ref: "#/components/schemas/PanchangSegment"
+        yoga:
+          type: array
+          items:
+            $ref: "#/components/schemas/PanchangSegment"
+        karana:
+          type: array
+          items:
+            $ref: "#/components/schemas/PanchangSegment"
+        muhurat:
+          $ref: "#/components/schemas/Muhurat"
+        choghadiya:
+          type: array
+          items:
+            $ref: "#/components/schemas/ChoghadiyaSegment"
+        festivals:
+          $ref: "#/components/schemas/FestivalCollection"
+        ekadashi_observance_date:
+          type: string
+          format: date
+          nullable: true
+          example: "2026-06-25"
+        parana:
+          type: object
+          nullable: true
+          allOf:
+            - $ref: "#/components/schemas/TimeRange"
+        metadata:
+          $ref: "#/components/schemas/ApiMetadata"
+
+    RegionalDate:
+      type: object
+      properties:
+        day:
+          type: integer
+          example: 24
+        month:
+          type: string
+          example: Jyaistha
+        year:
+          type: integer
+          example: 1433
+
+    Calendars:
+      type: object
+      properties:
+        vikram_samvat:
+          type: integer
+          example: 2083
+        shaka_samvat:
+          type: integer
+          example: 1948
+        bengali:
+          $ref: "#/components/schemas/RegionalDate"
+
+    SunInfo:
+      type: object
+      properties:
+        rise:
+          type: string
+          description: Local date-time in DD-MM-YYYY HH:mm:ss format.
+          example: "08-06-2026 04:51:14"
+        set:
+          type: string
+          description: Local date-time in DD-MM-YYYY HH:mm:ss format.
+          example: "08-06-2026 18:19:57"
+        longitude:
+          type: number
+          example: 77.25
+        rashi:
+          type: string
+          example: Vrishabha
+
+    MoonInfo:
+      type: object
+      properties:
+        rise:
+          type: string
+          nullable: true
+          example: "08-06-2026 23:59:54"
+        set:
+          type: string
+          nullable: true
+          example: "09-06-2026 12:21:04"
+        rashi:
+          type: string
+          example: Kumbha
+
+    LunarMonth:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Jyeshtha
+        adhik:
+          type: boolean
+          example: false
+
+    LunarContext:
+      type: object
+      properties:
+        lunar_month:
+          type: string
+          example: Jyeshtha
+        is_adhik:
+          type: boolean
+          example: false
+        adhik:
+          type: boolean
+          example: false
+        lunar_month_label:
+          type: string
+          example: Jyeshtha
+
+    Computation:
+      type: object
+      properties:
+        system:
+          type: string
+          example: drik
+        ayanamsha:
+          type: string
+          example: Lahiri
+        ayanamsa_value:
+          type: number
+          example: 24.21939
+        coordinate_type:
+          type: string
+          example: geocentric
+        clipping:
+          type: string
+          example: civil_day_sunrise_to_sunrise
+        tithi_method:
+          type: string
+          example: udaya_tithi
+        slots_anchored_at:
+          type: string
+          example: sunrise
+
+    PanchangSegment:
+      type: object
+      properties:
+        number:
+          type: integer
+          example: 23
+        name:
+          type: string
+          example: Ashtami
+        paksha:
+          type: string
+          nullable: true
+          enum:
+            - Shukla
+            - Krishna
+          example: Krishna
+        start:
+          type: string
+          example: "08-06-2026 04:51:14"
+        end:
+          type: string
+          example: "09-06-2026 03:24:59"
+
+    Muhurat:
+      type: object
+      additionalProperties:
+        $ref: "#/components/schemas/TimeRange"
+      properties:
+        rahu_kaal:
+          $ref: "#/components/schemas/TimeRange"
+        gulika_kaal:
+          $ref: "#/components/schemas/TimeRange"
+        yamaganda_kaal:
+          $ref: "#/components/schemas/TimeRange"
+        abhijit:
+          $ref: "#/components/schemas/TimeRange"
+        brahma:
+          $ref: "#/components/schemas/TimeRange"
+        vijaya:
+          $ref: "#/components/schemas/TimeRange"
+        varjyam:
+          $ref: "#/components/schemas/TimeRange"
+        durmuhurta:
+          $ref: "#/components/schemas/TimeRange"
+        amrit_siddhi:
+          $ref: "#/components/schemas/TimeRange"
+
+    TimeRange:
+      type: object
+      properties:
+        start:
+          type: string
+          nullable: true
+          example: "08-06-2026 06:32:19"
+        end:
+          type: string
+          nullable: true
+          example: "08-06-2026 08:13:24"
+        note:
+          type: string
+          nullable: true
+          example: Break Ekadashi fast during parana window.
+
+    ChoghadiyaSegment:
+      type: object
+      properties:
+        period:
+          type: string
+          enum:
+            - day
+            - night
+          example: day
+        type:
+          type: string
+          example: Amrit
+        quality:
+          type: string
+          example: very_auspicious
+        start:
+          type: string
+          example: "08-06-2026 04:51:14"
+        end:
+          type: string
+          example: "08-06-2026 06:32:19"
+
+    FestivalCollection:
+      type: object
+      properties:
+        total:
+          type: integer
+          example: 1
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Festival"
+
+    Festival:
+      type: object
+      properties:
+        id:
+          type: string
+          example: 2026-06-08_KRISHNA_ASHTAMI
+        name:
+          type: string
+          example: Masik Krishna Ashtami
+        slug:
+          type: string
+          example: masik-krishna-ashtami
+        type:
+          type: string
+          example: vrat
+        category:
+          type: string
+          example: hindu
+        observed_in:
+          type: array
+          items:
+            type: string
+          example:
+            - all-india
+        start:
+          type: string
+          nullable: true
+          example: "08-06-2026 04:51:14"
+        end:
+          type: string
+          nullable: true
+          example: "09-06-2026 03:24:59"
+        duration_note:
+          type: string
+          nullable: true
+          example: 22h 33m
+        note:
+          type: string
+          nullable: true
+          example: Moon sighting after Ganesh worship.
+
+    ApiMetadata:
+      type: object
+      properties:
+        api_version:
+          type: string
+          example: "2.0"
+        engine:
+          type: string
+          example: v5.0
+        ayanamsha:
+          type: string
+          example: Lahiri
+        ayanamsa_used:
+          type: number
+          example: 24.21939
+        resolved_via:
+          type: string
+          example: exact_match
+        resolved_lat:
+          type: number
+          example: 22.5726
+        resolved_lon:
+          type: number
+          example: 88.3639
+        offline:
+          type: boolean
+          example: true
+        region_variant:
+          type: string
+          nullable: true
+          example: east_india
+        compute_time_ms:
+          type: integer
+          nullable: true
+          example: 329
+        last_updated:
+          type: string
+          format: date-time
+          nullable: true
+          example: "2026-06-07T17:15:35.624Z"
+
+    ResponseMeta:
+      type: object
+      properties:
+        version:
+          type: string
+          example: "1.0"
+        computed_at:
+          type: string
+          format: date-time
+          example: "2026-06-07T17:15:35.624Z"
+        resolved_timezone:
+          type: string
+          example: Asia/Kolkata
+        data_source:
+          type: string
+          example: live
+        cache_age_seconds:
+          type: integer
+          example: 0
+
+    FeatureFlags:
+      type: object
+      properties:
+        muhurat:
+          type: boolean
+          example: true
+        choghadiya:
+          type: boolean
+          example: true
+        metadata:
+          type: boolean
+          example: true
+        monthly_api:
+          type: boolean
+          example: true
+
+    ErrorResponse:
+      type: object
+      description: Every error response is JSON with this shape.
+      properties:
+        error:
+          type: string
+          description: Short machine-readable error code.
+          example: plan_required
+        message:
+          type: string
+          description: Human-readable explanation.
+          example: This route requires a higher plan.
+        docs_url:
+          type: string
+          nullable: true
+          description: Link to the relevant documentation.
+          example: https://platform.devdarsha.com/documentation
+
+  responses:
+    BadRequest:
+      description: |
+        Missing or invalid parameters. Codes include `missing_parameter`, `invalid_date`,
+        `invalid_year`, and `missing_location` (neither a valid `city_id` nor a complete
+        `lat`+`lon` pair was supplied).
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+    Unauthorized:
+      description: Missing or invalid API key (`missing_api_key` / `invalid_api_key`).
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+    PlanRequired:
+      description: |
+        The plan does not allow this route or parameter (`plan_required`) — e.g. monthly on Free,
+        yearly below Sapphire, or `lat`/`lon` on a plan limited to `city_id`.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+    RateLimited:
+      description: |
+        Either the request quota (`rate_limit_exceeded`) or the coverage meter was exceeded.
+        Coverage codes: `coverage_limit_exceeded` (monthly distinct location-date allowance,
+        resets on the 1st of the UTC month), `coverage_daily_limit_exceeded` (UTC-day ceiling),
+        and `city_year_cap_exceeded` (per-city-year cap). These are orthogonal to the request quota.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+    ServiceUnavailable:
+      description: |
+        A backend dependency is temporarily unavailable — `engine_unavailable` or
+        `coverage_enforcement_unavailable`. Retry after a short backoff.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"

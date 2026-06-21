@@ -1,0 +1,27 @@
+# Secrets — never commit a real key
+.env
+.env.local
+
+# Scratch / raw API dumps from manual testing — never commit
+*_raw.json
+*.tmp.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PHP
+vendor/
+composer.lock
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

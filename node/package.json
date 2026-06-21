@@ -1,0 +1,16 @@
+{
+  "name": "devdarsha-api-examples-node",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Node.js examples for the DevDarsha Panchang API (no dependencies — uses native fetch).",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "daily": "node get-daily-panchang.js",
+    "tithi": "node today-tithi.js",
+    "calendar": "node festival-calendar-range.js"
+  },
+  "license": "MIT"
+}

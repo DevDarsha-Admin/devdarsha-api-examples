@@ -1,0 +1,66 @@
+name: syntax-check
+
+# Syntax checks only. This workflow does NOT call the live API — it just
+# verifies the example files parse. To run the examples against the real API
+# in CI later, add a repo secret named DEVDARSHA_API_KEY and a separate job;
+# do not put a key in this file.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: node --check every JS example
+        run: |
+          for f in node/*.js; do
+            echo "checking $f"
+            node --check "$f"
+          done
+
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: py_compile every Python example
+        run: |
+          for f in python/*.py; do
+            echo "checking $f"
+            python -m py_compile "$f"
+          done
+
+  php:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.2"
+      - name: php -l every PHP example
+        run: |
+          for f in php/*.php; do
+            echo "checking $f"
+            php -l "$f"
+          done
+
+  json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: validate sample JSON
+        run: |
+          for f in examples/*.json; do
+            echo "checking $f"
+            python -m json.tool "$f" > /dev/null
+          done

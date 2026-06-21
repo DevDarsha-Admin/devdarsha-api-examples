@@ -1,0 +1,3846 @@
+{
+  "data": {
+    "month": "2026-06",
+    "city": "Ujjain",
+    "city_id": "ujjain",
+    "timezone": "Asia/Kolkata",
+    "utc_offset": "+05:30",
+    "total_days": 30,
+    "metadata": {
+      "api_version": "2.0",
+      "engine": "v5.0",
+      "ayanamsha": "Lahiri",
+      "resolved_via": "exact_match",
+      "resolved_lat": 23.1765,
+      "resolved_lon": 75.7885,
+      "offline": true
+    },
+    "compute_ms": 5,
+    "days": [
+      {
+        "date": "2026-06-01",
+        "weekday": "Monday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 17,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 17,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "01-06-2026 05:40:45",
+          "set": "01-06-2026 19:08:41",
+          "longitude": 70.55,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "01-06-2026 20:15:54",
+          "set": "02-06-2026 06:51:55",
+          "rashi": "Vrishchika"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21912,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "pratipada"
+        ],
+        "tithi": [
+          {
+            "number": 16,
+            "name": "Pratipada",
+            "paksha": "Krishna",
+            "start": "01-06-2026 05:40:45",
+            "end": "01-06-2026 16:38:52"
+          },
+          {
+            "number": 17,
+            "name": "Dwitiya",
+            "paksha": "Krishna",
+            "start": "01-06-2026 16:38:52",
+            "end": "02-06-2026 19:02:37"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 18,
+            "name": "Jyeshtha",
+            "start": "01-06-2026 05:40:45",
+            "end": "01-06-2026 19:08:15"
+          },
+          {
+            "number": 19,
+            "name": "Mula",
+            "start": "01-06-2026 19:08:15",
+            "end": "02-06-2026 22:05:45"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 21,
+            "name": "Siddha",
+            "start": "01-06-2026 05:40:45",
+            "end": "01-06-2026 07:40:45"
+          },
+          {
+            "number": 22,
+            "name": "Sadhya",
+            "start": "01-06-2026 07:40:45",
+            "end": "02-06-2026 07:13:52"
+          }
+        ],
+        "karana": [
+          {
+            "number": 32,
+            "name": "Kaulava",
+            "start": "01-06-2026 03:27:00",
+            "end": "01-06-2026 16:38:52"
+          },
+          {
+            "number": 33,
+            "name": "Taitila",
+            "start": "01-06-2026 16:38:52",
+            "end": "02-06-2026 05:40:45"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-01_SITALSHASHTHI",
+              "name": "Sitalshashthi",
+              "slug": "sitalshashthi",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "01-06-2026 00:00:00",
+              "end": "01-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Shiva-Parvati ceremonial wedding festival in Odisha."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-02",
+        "weekday": "Tuesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 18,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 18,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "02-06-2026 05:40:38",
+          "set": "02-06-2026 19:09:07",
+          "longitude": 71.51,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "02-06-2026 21:05:51",
+          "set": "03-06-2026 07:45:35",
+          "rashi": "Dhanu"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21916,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "dwitiya"
+        ],
+        "tithi": [
+          {
+            "number": 17,
+            "name": "Dwitiya",
+            "paksha": "Krishna",
+            "start": "02-06-2026 05:40:38",
+            "end": "02-06-2026 19:02:30"
+          },
+          {
+            "number": 18,
+            "name": "Tritiya",
+            "paksha": "Krishna",
+            "start": "02-06-2026 19:02:30",
+            "end": "03-06-2026 21:22:30"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 19,
+            "name": "Mula",
+            "start": "02-06-2026 05:40:38",
+            "end": "02-06-2026 22:05:38"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 22,
+            "name": "Sadhya",
+            "start": "02-06-2026 05:40:38",
+            "end": "02-06-2026 07:40:38"
+          },
+          {
+            "number": 23,
+            "name": "Shubha",
+            "start": "02-06-2026 07:40:38",
+            "end": "03-06-2026 08:10:00"
+          }
+        ],
+        "karana": [
+          {
+            "number": 33,
+            "name": "Taitila",
+            "start": "01-06-2026 16:38:45",
+            "end": "02-06-2026 06:40:38"
+          },
+          {
+            "number": 34,
+            "name": "Garaja",
+            "start": "02-06-2026 06:40:38",
+            "end": "03-06-2026 05:40:38"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-03",
+        "weekday": "Wednesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 19,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 19,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "03-06-2026 05:40:32",
+          "set": "03-06-2026 19:09:32",
+          "longitude": 72.46,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "03-06-2026 21:51:44",
+          "set": "04-06-2026 08:40:36",
+          "rashi": "Dhanu"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.2192,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "tritiya",
+          "sankashti"
+        ],
+        "tithi": [
+          {
+            "number": 18,
+            "name": "Tritiya",
+            "paksha": "Krishna",
+            "start": "03-06-2026 05:40:32",
+            "end": "03-06-2026 21:22:24"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 20,
+            "name": "Purva Ashadha",
+            "start": "03-06-2026 05:40:32",
+            "end": "04-06-2026 00:59:17"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 23,
+            "name": "Shubha",
+            "start": "03-06-2026 05:40:32",
+            "end": "03-06-2026 08:09:54"
+          },
+          {
+            "number": 24,
+            "name": "Shukla",
+            "start": "03-06-2026 08:09:54",
+            "end": "04-06-2026 09:00:32"
+          }
+        ],
+        "karana": [
+          {
+            "number": 35,
+            "name": "Vanija",
+            "start": "02-06-2026 19:02:24",
+            "end": "03-06-2026 08:13:39"
+          },
+          {
+            "number": 36,
+            "name": "Vishti",
+            "start": "03-06-2026 08:13:39",
+            "end": "04-06-2026 05:40:32"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-03_SANKASHTI",
+              "name": "Ekadanta Sankashti",
+              "slug": "ekadanta-sankashti",
+              "type": "major_vrat",
+              "category": "hindu_ganapatya",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "03-06-2026 21:51:44",
+              "end": null,
+              "duration_note": "All day",
+              "note": "Moon sighting after Ganesh worship"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-04",
+        "weekday": "Thursday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 20,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 20,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "04-06-2026 05:40:27",
+          "set": "04-06-2026 19:09:57",
+          "longitude": 73.42,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "04-06-2026 22:33:19",
+          "set": "05-06-2026 09:35:41",
+          "rashi": "Dhanu"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21924,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "chaturthi"
+        ],
+        "tithi": [
+          {
+            "number": 19,
+            "name": "Chaturthi",
+            "paksha": "Krishna",
+            "start": "04-06-2026 05:40:27",
+            "end": "04-06-2026 23:31:42"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 21,
+            "name": "Uttara Ashadha",
+            "start": "04-06-2026 05:40:27",
+            "end": "05-06-2026 03:41:04"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 24,
+            "name": "Shukla",
+            "start": "04-06-2026 05:40:27",
+            "end": "04-06-2026 09:00:27"
+          },
+          {
+            "number": 25,
+            "name": "Brahma",
+            "start": "04-06-2026 09:00:27",
+            "end": "05-06-2026 09:40:27"
+          }
+        ],
+        "karana": [
+          {
+            "number": 37,
+            "name": "Bava",
+            "start": "03-06-2026 21:22:19",
+            "end": "04-06-2026 10:29:12"
+          },
+          {
+            "number": 38,
+            "name": "Balava",
+            "start": "04-06-2026 10:29:12",
+            "end": "05-06-2026 05:40:27"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-05",
+        "weekday": "Friday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 21,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 21,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "05-06-2026 05:40:23",
+          "set": "05-06-2026 19:10:21",
+          "longitude": 74.38,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "05-06-2026 23:11:04",
+          "set": "06-06-2026 10:30:12",
+          "rashi": "Makara"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21928,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "panchami"
+        ],
+        "tithi": [
+          {
+            "number": 20,
+            "name": "Panchami",
+            "paksha": "Krishna",
+            "start": "05-06-2026 05:40:23",
+            "end": "06-06-2026 01:21:38"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 22,
+            "name": "Shravana",
+            "start": "05-06-2026 05:40:23",
+            "end": "06-06-2026 06:02:53"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 25,
+            "name": "Brahma",
+            "start": "05-06-2026 05:40:23",
+            "end": "05-06-2026 09:40:23"
+          },
+          {
+            "number": 26,
+            "name": "Indra",
+            "start": "05-06-2026 09:40:23",
+            "end": "06-06-2026 10:02:15"
+          }
+        ],
+        "karana": [
+          {
+            "number": 39,
+            "name": "Kaulava",
+            "start": "04-06-2026 23:31:38",
+            "end": "05-06-2026 12:29:45"
+          },
+          {
+            "number": 40,
+            "name": "Taitila",
+            "start": "05-06-2026 12:29:45",
+            "end": "06-06-2026 05:40:23"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-06",
+        "weekday": "Saturday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 22,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 22,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "06-06-2026 05:40:20",
+          "set": "06-06-2026 19:10:45",
+          "longitude": 75.34,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "06-06-2026 23:45:53",
+          "set": "07-06-2026 11:24:11",
+          "rashi": "Makara"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21931,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "shashthi"
+        ],
+        "tithi": [
+          {
+            "number": 21,
+            "name": "Shashthi",
+            "paksha": "Krishna",
+            "start": "06-06-2026 05:40:20",
+            "end": "07-06-2026 02:42:50"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 22,
+            "name": "Shravana",
+            "start": "06-06-2026 05:40:20",
+            "end": "06-06-2026 07:40:20"
+          },
+          {
+            "number": 23,
+            "name": "Dhanishta",
+            "start": "06-06-2026 07:40:20",
+            "end": "07-06-2026 07:55:20"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 26,
+            "name": "Indra",
+            "start": "06-06-2026 05:40:20",
+            "end": "06-06-2026 10:02:12"
+          },
+          {
+            "number": 27,
+            "name": "Vaidhriti",
+            "start": "06-06-2026 10:02:12",
+            "end": "07-06-2026 09:59:42"
+          }
+        ],
+        "karana": [
+          {
+            "number": 41,
+            "name": "Garaja",
+            "start": "06-06-2026 01:21:35",
+            "end": "06-06-2026 14:05:57"
+          },
+          {
+            "number": 42,
+            "name": "Vanija",
+            "start": "06-06-2026 14:05:57",
+            "end": "07-06-2026 05:40:20"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-07",
+        "weekday": "Sunday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 23,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 23,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "07-06-2026 05:40:19",
+          "set": "07-06-2026 19:11:08",
+          "longitude": 76.29,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "06-06-2026 23:45:53",
+          "set": "07-06-2026 11:24:11",
+          "rashi": "Kumbha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21935,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "saptami"
+        ],
+        "tithi": [
+          {
+            "number": 22,
+            "name": "Saptami",
+            "paksha": "Krishna",
+            "start": "07-06-2026 05:40:19",
+            "end": "08-06-2026 03:25:56"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 23,
+            "name": "Dhanishta",
+            "start": "07-06-2026 05:40:19",
+            "end": "07-06-2026 07:55:19"
+          },
+          {
+            "number": 24,
+            "name": "Shatabhisha",
+            "start": "07-06-2026 07:55:19",
+            "end": "08-06-2026 09:09:04"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 27,
+            "name": "Vaidhriti",
+            "start": "07-06-2026 05:40:19",
+            "end": "07-06-2026 09:59:41"
+          },
+          {
+            "number": 1,
+            "name": "Vishkambha",
+            "start": "07-06-2026 09:59:41",
+            "end": "08-06-2026 09:25:56"
+          }
+        ],
+        "karana": [
+          {
+            "number": 43,
+            "name": "Vishti",
+            "start": "07-06-2026 02:42:49",
+            "end": "07-06-2026 15:09:41"
+          },
+          {
+            "number": 44,
+            "name": "Bava",
+            "start": "07-06-2026 15:09:41",
+            "end": "08-06-2026 05:40:19"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-08",
+        "weekday": "Monday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 24,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 24,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "08-06-2026 05:40:18",
+          "set": "08-06-2026 19:11:31",
+          "longitude": 77.25,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "08-06-2026 00:18:54",
+          "set": "08-06-2026 12:18:15",
+          "rashi": "Kumbha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21939,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "ashtami"
+        ],
+        "tithi": [
+          {
+            "number": 23,
+            "name": "Ashtami",
+            "paksha": "Krishna",
+            "start": "08-06-2026 05:40:18",
+            "end": "09-06-2026 03:25:18"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 24,
+            "name": "Shatabhisha",
+            "start": "08-06-2026 05:40:18",
+            "end": "08-06-2026 09:09:03"
+          },
+          {
+            "number": 25,
+            "name": "Purva Bhadrapada",
+            "start": "08-06-2026 09:09:03",
+            "end": "09-06-2026 09:39:03"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 1,
+            "name": "Vishkambha",
+            "start": "08-06-2026 05:40:18",
+            "end": "08-06-2026 09:25:55"
+          },
+          {
+            "number": 2,
+            "name": "Priti",
+            "start": "08-06-2026 09:25:55",
+            "end": "09-06-2026 08:16:33"
+          }
+        ],
+        "karana": [
+          {
+            "number": 45,
+            "name": "Balava",
+            "start": "08-06-2026 03:25:55",
+            "end": "08-06-2026 15:31:33"
+          },
+          {
+            "number": 46,
+            "name": "Kaulava",
+            "start": "08-06-2026 15:31:33",
+            "end": "09-06-2026 05:40:18"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-08_KRISHNA_ASHTAMI",
+              "name": "Masik Krishna Ashtami",
+              "slug": "masik-krishna-ashtami",
+              "type": "vrat",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "08-06-2026 05:40:18",
+              "end": "09-06-2026 03:25:18",
+              "duration_note": "21h 45m"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-09",
+        "weekday": "Tuesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 25,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 25,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "09-06-2026 05:40:19",
+          "set": "09-06-2026 19:11:53",
+          "longitude": 78.21,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "09-06-2026 00:51:26",
+          "set": "09-06-2026 13:13:25",
+          "rashi": "Meena"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21943,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "navami"
+        ],
+        "tithi": [
+          {
+            "number": 24,
+            "name": "Navami",
+            "paksha": "Krishna",
+            "start": "09-06-2026 05:40:19",
+            "end": "10-06-2026 02:35:56"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 25,
+            "name": "Purva Bhadrapada",
+            "start": "09-06-2026 05:40:19",
+            "end": "09-06-2026 09:39:04"
+          },
+          {
+            "number": 26,
+            "name": "Uttara Bhadrapada",
+            "start": "09-06-2026 09:39:04",
+            "end": "10-06-2026 09:20:56"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 2,
+            "name": "Priti",
+            "start": "09-06-2026 05:40:19",
+            "end": "09-06-2026 08:16:34"
+          },
+          {
+            "number": 3,
+            "name": "Ayushman",
+            "start": "09-06-2026 08:16:34",
+            "end": "10-06-2026 06:28:26"
+          }
+        ],
+        "karana": [
+          {
+            "number": 47,
+            "name": "Taitila",
+            "start": "09-06-2026 03:24:41",
+            "end": "09-06-2026 15:06:34"
+          },
+          {
+            "number": 48,
+            "name": "Garaja",
+            "start": "09-06-2026 15:06:34",
+            "end": "10-06-2026 05:40:19"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-10",
+        "weekday": "Wednesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 26,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 26,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "10-06-2026 05:40:20",
+          "set": "10-06-2026 19:12:15",
+          "longitude": 79.16,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "10-06-2026 01:24:53",
+          "set": "10-06-2026 14:10:59",
+          "rashi": "Meena"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21947,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "dashami"
+        ],
+        "tithi": [
+          {
+            "number": 25,
+            "name": "Dashami",
+            "paksha": "Krishna",
+            "start": "10-06-2026 05:40:20",
+            "end": "11-06-2026 00:59:05"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 26,
+            "name": "Uttara Bhadrapada",
+            "start": "10-06-2026 05:40:20",
+            "end": "10-06-2026 09:20:57"
+          },
+          {
+            "number": 27,
+            "name": "Revati",
+            "start": "10-06-2026 09:20:57",
+            "end": "11-06-2026 08:15:57"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 3,
+            "name": "Ayushman",
+            "start": "10-06-2026 05:40:20",
+            "end": "10-06-2026 07:40:20"
+          },
+          {
+            "number": 4,
+            "name": "Saubhagya",
+            "start": "10-06-2026 07:40:20",
+            "end": "11-06-2026 04:00:57"
+          }
+        ],
+        "karana": [
+          {
+            "number": 49,
+            "name": "Vanija",
+            "start": "10-06-2026 02:35:57",
+            "end": "10-06-2026 13:53:27"
+          },
+          {
+            "number": 50,
+            "name": "Vishti",
+            "start": "10-06-2026 13:53:27",
+            "end": "11-06-2026 05:40:20"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-11",
+        "weekday": "Thursday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 27,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 27,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "11-06-2026 05:40:23",
+          "set": "11-06-2026 19:12:36",
+          "longitude": 80.12,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "11-06-2026 02:00:52",
+          "set": "11-06-2026 15:12:16",
+          "rashi": "Meena"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.2195,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "ekadashi"
+        ],
+        "tithi": [
+          {
+            "number": 26,
+            "name": "Ekadashi",
+            "paksha": "Krishna",
+            "start": "11-06-2026 05:40:23",
+            "end": "11-06-2026 22:37:15"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 27,
+            "name": "Revati",
+            "start": "11-06-2026 05:40:23",
+            "end": "11-06-2026 08:16:00"
+          },
+          {
+            "number": 1,
+            "name": "Ashwini",
+            "start": "11-06-2026 08:16:00",
+            "end": "12-06-2026 06:27:53"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 5,
+            "name": "Shobhana",
+            "start": "11-06-2026 05:40:23",
+            "end": "12-06-2026 00:58:30"
+          }
+        ],
+        "karana": [
+          {
+            "number": 51,
+            "name": "Bava",
+            "start": "11-06-2026 00:59:08",
+            "end": "11-06-2026 11:53:30"
+          },
+          {
+            "number": 52,
+            "name": "Balava",
+            "start": "11-06-2026 11:53:30",
+            "end": "12-06-2026 05:40:23"
+          }
+        ],
+        "festivals": {
+          "total": 2,
+          "data": [
+            {
+              "id": "2026-06-11_EKADASHI",
+              "name": "Yogini Ekadashi",
+              "slug": "yogini-ekadashi",
+              "type": "major_vrat",
+              "category": "hindu_vaishnava",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "11-06-2026 05:40:23",
+              "end": "11-06-2026 22:37:15",
+              "duration_note": "16h 56m"
+            },
+            {
+              "id": "2026-06-11_SNANA_PURNIMA",
+              "name": "Snana Purnima",
+              "slug": "snana-purnima",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "11-06-2026 00:00:00",
+              "end": "11-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Devasnana Purnima observance in Odisha/Jagannath tradition."
+            }
+          ]
+        },
+        "ekadashi_observance_date": "2026-06-11"
+      },
+      {
+        "date": "2026-06-12",
+        "weekday": "Friday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 28,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 28,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "12-06-2026 05:40:27",
+          "set": "12-06-2026 19:12:56",
+          "longitude": 81.08,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "12-06-2026 02:41:18",
+          "set": "12-06-2026 16:18:06",
+          "rashi": "Mesha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21954,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "dwadashi",
+          "parana"
+        ],
+        "tithi": [
+          {
+            "number": 27,
+            "name": "Dwadashi",
+            "paksha": "Krishna",
+            "start": "12-06-2026 05:40:27",
+            "end": "12-06-2026 19:37:57"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 1,
+            "name": "Ashwini",
+            "start": "12-06-2026 05:40:27",
+            "end": "12-06-2026 07:40:27"
+          },
+          {
+            "number": 2,
+            "name": "Bharani",
+            "start": "12-06-2026 07:40:27",
+            "end": "13-06-2026 04:04:49"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 6,
+            "name": "Atiganda",
+            "start": "12-06-2026 05:40:27",
+            "end": "12-06-2026 21:24:12"
+          }
+        ],
+        "karana": [
+          {
+            "number": 53,
+            "name": "Kaulava",
+            "start": "11-06-2026 22:37:19",
+            "end": "12-06-2026 09:11:42"
+          },
+          {
+            "number": 54,
+            "name": "Taitila",
+            "start": "12-06-2026 09:11:42",
+            "end": "13-06-2026 05:40:27"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-12_EKADASHI_PARANA",
+              "name": "Ekadashi Parana",
+              "slug": "ekadashi-parana",
+              "type": "vrat",
+              "category": "hindu_vaishnava",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "12-06-2026 05:40:27",
+              "end": "12-06-2026 10:11:16",
+              "duration_note": "4h 30m",
+              "note": "Break Ekadashi fast during parana window (sunrise to 1/3 of daytime or Dwadashi end)"
+            }
+          ]
+        },
+        "parana": {
+          "start": "12-06-2026 05:40:27",
+          "end": "12-06-2026 10:11:16",
+          "note": "Break Ekadashi fast during parana window (sunrise to 1/3 of daytime or Dwadashi end)"
+        }
+      },
+      {
+        "date": "2026-06-13",
+        "weekday": "Saturday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 29,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 29,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "13-06-2026 05:40:32",
+          "set": "13-06-2026 19:13:16",
+          "longitude": 82.03,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "13-06-2026 03:28:12",
+          "set": "13-06-2026 17:28:06",
+          "rashi": "Mesha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21958,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "trayodashi"
+        ],
+        "tithi": [
+          {
+            "number": 28,
+            "name": "Trayodashi",
+            "paksha": "Krishna",
+            "start": "13-06-2026 05:40:32",
+            "end": "13-06-2026 16:09:17"
+          },
+          {
+            "number": 29,
+            "name": "Chaturdashi",
+            "paksha": "Krishna",
+            "start": "13-06-2026 16:09:17",
+            "end": "14-06-2026 12:21:09"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 3,
+            "name": "Krittika",
+            "start": "13-06-2026 05:40:32",
+            "end": "14-06-2026 01:16:47"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 7,
+            "name": "Sukarma",
+            "start": "13-06-2026 05:40:32",
+            "end": "13-06-2026 17:26:47"
+          },
+          {
+            "number": 8,
+            "name": "Dhriti",
+            "start": "13-06-2026 17:26:47",
+            "end": "14-06-2026 13:13:39"
+          }
+        ],
+        "karana": [
+          {
+            "number": 55,
+            "name": "Garaja",
+            "start": "12-06-2026 19:38:02",
+            "end": "13-06-2026 06:40:32"
+          },
+          {
+            "number": 56,
+            "name": "Vanija",
+            "start": "13-06-2026 06:40:32",
+            "end": "14-06-2026 05:40:32"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-13_MASIK_SHIVRATRI",
+              "name": "Masik Shivratri",
+              "slug": "masik-shivratri",
+              "type": "vrat",
+              "category": "hindu_shaiva",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "13-06-2026 16:09:17",
+              "end": "14-06-2026 12:21:09",
+              "duration_note": "20h 11m (ends next day)"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-14",
+        "weekday": "Sunday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 30,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 30,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "14-06-2026 05:40:38",
+          "set": "14-06-2026 19:13:35",
+          "longitude": 82.99,
+          "rashi": "Vrishabha"
+        },
+        "moon": {
+          "rise": "14-06-2026 04:23:15",
+          "set": "14-06-2026 18:39:45",
+          "rashi": "Vrishabha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21962,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "chaturdashi"
+        ],
+        "tithi": [
+          {
+            "number": 29,
+            "name": "Chaturdashi",
+            "paksha": "Krishna",
+            "start": "14-06-2026 05:40:38",
+            "end": "14-06-2026 12:21:15"
+          },
+          {
+            "number": 30,
+            "name": "Amavasya",
+            "paksha": "Krishna",
+            "start": "14-06-2026 12:21:15",
+            "end": "15-06-2026 08:25:00"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 4,
+            "name": "Rohini",
+            "start": "14-06-2026 05:40:38",
+            "end": "14-06-2026 22:13:45"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 8,
+            "name": "Dhriti",
+            "start": "14-06-2026 05:40:38",
+            "end": "14-06-2026 13:13:45"
+          },
+          {
+            "number": 9,
+            "name": "Shula",
+            "start": "14-06-2026 13:13:45",
+            "end": "15-06-2026 08:53:45"
+          }
+        ],
+        "karana": [
+          {
+            "number": 58,
+            "name": "Shakuni",
+            "start": "14-06-2026 02:16:53",
+            "end": "14-06-2026 12:21:15"
+          },
+          {
+            "number": 59,
+            "name": "Chatushpada",
+            "start": "14-06-2026 12:21:15",
+            "end": "15-06-2026 05:40:38"
+          }
+        ],
+        "festivals": {
+          "total": 2,
+          "data": [
+            {
+              "id": "2026-06-14_VAT_SAVITRI",
+              "name": "Vat Savitri Vrat",
+              "slug": "vat-savitri-vrat",
+              "type": "major_vrat",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "14-06-2026 12:21:15",
+              "end": "15-06-2026 08:25:00",
+              "duration_note": "20h 3m (ends next day)",
+              "note": "Vat Savitri Vrat - Jyeshtha Amavasya"
+            },
+            {
+              "id": "2026-06-14_ROHINI_VRAT",
+              "name": "Rohini Vrat",
+              "slug": "rohini-vrat",
+              "type": "vrat",
+              "category": "hindu_vaishnava",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "14-06-2026 05:40:38",
+              "end": "14-06-2026 22:13:45",
+              "duration_note": "16h 33m"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-15",
+        "weekday": "Monday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 31,
+          "month": "Jyaistha",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 31,
+            "month": "Jyaistha",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "15-06-2026 05:40:45",
+          "set": "15-06-2026 19:13:54",
+          "longitude": 83.94,
+          "rashi": "Mithuna",
+          "transit_rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "15-06-2026 05:26:41",
+          "set": "15-06-2026 19:48:38",
+          "rashi": "Vrishabha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21966,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "amavasya"
+        ],
+        "tithi": [
+          {
+            "number": 30,
+            "name": "Amavasya",
+            "paksha": "Krishna",
+            "start": "15-06-2026 05:40:45",
+            "end": "15-06-2026 08:25:07"
+          },
+          {
+            "number": 1,
+            "name": "Pratipada",
+            "paksha": "Shukla",
+            "start": "15-06-2026 08:25:07",
+            "end": "16-06-2026 04:32:00"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 5,
+            "name": "Mrigashira",
+            "start": "15-06-2026 05:40:45",
+            "end": "15-06-2026 19:08:15"
+          },
+          {
+            "number": 6,
+            "name": "Ardra",
+            "start": "15-06-2026 19:08:15",
+            "end": "16-06-2026 16:12:00"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 9,
+            "name": "Shula",
+            "start": "15-06-2026 05:40:45",
+            "end": "15-06-2026 08:53:52"
+          },
+          {
+            "number": 10,
+            "name": "Ganda",
+            "start": "15-06-2026 08:53:52",
+            "end": "16-06-2026 04:37:37"
+          }
+        ],
+        "karana": [
+          {
+            "number": 60,
+            "name": "Naga",
+            "start": "14-06-2026 22:23:15",
+            "end": "15-06-2026 08:25:07"
+          },
+          {
+            "number": 1,
+            "name": "Kimstughna",
+            "start": "15-06-2026 08:25:07",
+            "end": "16-06-2026 05:40:45"
+          }
+        ],
+        "festivals": {
+          "total": 3,
+          "data": [
+            {
+              "id": "2026-06-15_AMAVASYA",
+              "name": "Amavasya",
+              "slug": "amavasya",
+              "type": "vrat",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "15-06-2026 05:40:45",
+              "end": "15-06-2026 08:25:07",
+              "duration_note": "2h 44m"
+            },
+            {
+              "id": "2026-06-15_SHANI_JAYANTI",
+              "name": "Shani Jayanti",
+              "slug": "shani-jayanti",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "15-06-2026 05:40:45",
+              "end": "15-06-2026 08:25:07",
+              "duration_note": "2h 44m",
+              "note": "Birth anniversary of Lord Shani - Jyeshtha Amavasya"
+            },
+            {
+              "id": "2026-06-15_SANKRANTI_60",
+              "name": "Mithuna Sankranti",
+              "slug": "mithuna-sankranti",
+              "type": "vrat",
+              "category": "hindu_solar",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "15-06-2026 12:39:58",
+              "end": null,
+              "duration_note": "Sun enters at 12:39 PM",
+              "note": "Sun enters Gemini"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-16",
+        "weekday": "Tuesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 1,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 1,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "16-06-2026 05:40:53",
+          "set": "16-06-2026 19:14:11",
+          "longitude": 84.9,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "16-06-2026 06:36:08",
+          "set": "16-06-2026 20:50:37",
+          "rashi": "Mithuna"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.2197,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "dwitiya"
+        ],
+        "tithi": [
+          {
+            "number": 2,
+            "name": "Dwitiya",
+            "paksha": "Shukla",
+            "start": "16-06-2026 05:40:53",
+            "end": "17-06-2026 00:54:00"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 6,
+            "name": "Ardra",
+            "start": "16-06-2026 05:40:53",
+            "end": "16-06-2026 16:12:08"
+          },
+          {
+            "number": 7,
+            "name": "Punarvasu",
+            "start": "16-06-2026 16:12:08",
+            "end": "17-06-2026 13:36:30"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 11,
+            "name": "Vriddhi",
+            "start": "16-06-2026 05:40:53",
+            "end": "17-06-2026 00:32:45"
+          }
+        ],
+        "karana": [
+          {
+            "number": 3,
+            "name": "Balava",
+            "start": "16-06-2026 04:32:08",
+            "end": "16-06-2026 14:40:15"
+          },
+          {
+            "number": 4,
+            "name": "Kaulava",
+            "start": "16-06-2026 14:40:15",
+            "end": "17-06-2026 05:40:53"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-16_SHAHEEDI_DIVAS_GURU_ARJAN_DEV_JI",
+              "name": "Shaheedi Divas - Guru Arjan Dev Ji",
+              "slug": "shaheedi-divas---guru-arjan-dev-ji",
+              "type": "major",
+              "category": "sikh",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "16-06-2026 00:00:00",
+              "end": "16-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Martyrdom day of Guru Arjan Dev Ji, 5th Sikh Guru - first Sikh martyr, executed by Mughal Emperor Jahangir on June 16, 1606 CE in Lahore."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-17",
+        "weekday": "Wednesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 2,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 2,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "17-06-2026 05:41:02",
+          "set": "17-06-2026 19:14:28",
+          "longitude": 85.85,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "17-06-2026 07:47:12",
+          "set": "17-06-2026 21:43:54",
+          "rashi": "Mithuna"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21973,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "tritiya"
+        ],
+        "tithi": [
+          {
+            "number": 3,
+            "name": "Tritiya",
+            "paksha": "Shukla",
+            "start": "17-06-2026 05:41:02",
+            "end": "17-06-2026 21:39:47"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 7,
+            "name": "Punarvasu",
+            "start": "17-06-2026 05:41:02",
+            "end": "17-06-2026 13:36:39"
+          },
+          {
+            "number": 8,
+            "name": "Pushya",
+            "start": "17-06-2026 13:36:39",
+            "end": "18-06-2026 11:32:17"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 12,
+            "name": "Dhruva",
+            "start": "17-06-2026 05:41:02",
+            "end": "17-06-2026 20:49:09"
+          }
+        ],
+        "karana": [
+          {
+            "number": 5,
+            "name": "Taitila",
+            "start": "17-06-2026 00:53:32",
+            "end": "17-06-2026 11:12:54"
+          },
+          {
+            "number": 6,
+            "name": "Garaja",
+            "start": "17-06-2026 11:12:54",
+            "end": "18-06-2026 05:41:02"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-17_ISLAMIC_NEW_YEAR",
+              "name": "Islamic New Year",
+              "slug": "islamic-new-year",
+              "type": "observance",
+              "category": "islamic",
+              "observed_in": [
+                "pan-india"
+              ],
+              "start": "17-06-2026 00:00:00",
+              "end": "17-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "First day of Muharram - marks the beginning of Hijri year 1448 AH."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-18",
+        "weekday": "Thursday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 3,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 3,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "18-06-2026 05:41:11",
+          "set": "18-06-2026 19:14:44",
+          "longitude": 86.81,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "18-06-2026 08:55:47",
+          "set": "18-06-2026 22:29:09",
+          "rashi": "Karka"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21977,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "chaturthi"
+        ],
+        "tithi": [
+          {
+            "number": 4,
+            "name": "Chaturthi",
+            "paksha": "Shukla",
+            "start": "18-06-2026 05:41:11",
+            "end": "18-06-2026 18:59:56"
+          },
+          {
+            "number": 5,
+            "name": "Panchami",
+            "paksha": "Shukla",
+            "start": "18-06-2026 18:59:56",
+            "end": "19-06-2026 17:01:11"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 8,
+            "name": "Pushya",
+            "start": "18-06-2026 05:41:11",
+            "end": "18-06-2026 11:31:48"
+          },
+          {
+            "number": 9,
+            "name": "Ashlesha",
+            "start": "18-06-2026 11:31:48",
+            "end": "19-06-2026 10:06:11"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 13,
+            "name": "Vyaghata",
+            "start": "18-06-2026 05:41:11",
+            "end": "18-06-2026 17:33:41"
+          },
+          {
+            "number": 14,
+            "name": "Harshana",
+            "start": "18-06-2026 17:33:41",
+            "end": "19-06-2026 14:51:11"
+          }
+        ],
+        "karana": [
+          {
+            "number": 7,
+            "name": "Vanija",
+            "start": "17-06-2026 21:39:56",
+            "end": "18-06-2026 08:15:33"
+          },
+          {
+            "number": 8,
+            "name": "Vishti",
+            "start": "18-06-2026 08:15:33",
+            "end": "19-06-2026 05:41:11"
+          }
+        ],
+        "festivals": {
+          "total": 3,
+          "data": [
+            {
+              "id": "2026-06-18_VINAYAKA_CHATURTHI",
+              "name": "Vinayaka Chaturthi",
+              "slug": "vinayaka-chaturthi",
+              "type": "vrat",
+              "category": "hindu_ganapatya",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "18-06-2026 05:41:11",
+              "end": "18-06-2026 18:59:56",
+              "duration_note": "13h 18m"
+            },
+            {
+              "id": "2026-06-18_PUSHYA",
+              "name": "Pushya Nakshatra",
+              "slug": "pushya-nakshatra",
+              "type": "auspicious",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "18-06-2026 05:41:11",
+              "end": "18-06-2026 11:31:48",
+              "duration_note": "5h 50m",
+              "note": "Highly auspicious for new beginnings"
+            },
+            {
+              "id": "2026-06-18_GURU_PUSHYA",
+              "name": "Guru Pushya Yoga",
+              "slug": "guru-pushya-yoga",
+              "type": "major_auspicious",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "18-06-2026 05:41:11",
+              "end": "18-06-2026 11:31:48",
+              "duration_note": "5h 50m",
+              "note": "Rarest and most auspicious muhurat"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-19",
+        "weekday": "Friday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 4,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 4,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "19-06-2026 05:41:22",
+          "set": "19-06-2026 19:14:59",
+          "longitude": 87.76,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "19-06-2026 09:59:54",
+          "set": "19-06-2026 23:08:12",
+          "rashi": "Karka"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21981,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "panchami"
+        ],
+        "tithi": [
+          {
+            "number": 5,
+            "name": "Panchami",
+            "paksha": "Shukla",
+            "start": "19-06-2026 05:41:22",
+            "end": "19-06-2026 17:01:22"
+          },
+          {
+            "number": 6,
+            "name": "Shashthi",
+            "paksha": "Shukla",
+            "start": "19-06-2026 17:01:22",
+            "end": "20-06-2026 15:48:14"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 9,
+            "name": "Ashlesha",
+            "start": "19-06-2026 05:41:22",
+            "end": "19-06-2026 10:06:22"
+          },
+          {
+            "number": 10,
+            "name": "Magha",
+            "start": "19-06-2026 10:06:22",
+            "end": "20-06-2026 09:25:07"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 14,
+            "name": "Harshana",
+            "start": "19-06-2026 05:41:22",
+            "end": "19-06-2026 14:51:22"
+          },
+          {
+            "number": 15,
+            "name": "Vajra",
+            "start": "19-06-2026 14:51:22",
+            "end": "20-06-2026 12:46:22"
+          }
+        ],
+        "karana": [
+          {
+            "number": 9,
+            "name": "Bava",
+            "start": "18-06-2026 19:00:07",
+            "end": "19-06-2026 06:41:22"
+          },
+          {
+            "number": 10,
+            "name": "Balava",
+            "start": "19-06-2026 06:41:22",
+            "end": "20-06-2026 05:41:22"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      },
+      {
+        "date": "2026-06-20",
+        "weekday": "Saturday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 5,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 5,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "20-06-2026 05:41:34",
+          "set": "20-06-2026 19:15:14",
+          "longitude": 88.72,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "20-06-2026 10:59:29",
+          "set": "20-06-2026 23:43:06",
+          "rashi": "Simha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21985,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "shashthi"
+        ],
+        "tithi": [
+          {
+            "number": 6,
+            "name": "Shashthi",
+            "paksha": "Shukla",
+            "start": "20-06-2026 05:41:34",
+            "end": "20-06-2026 15:47:49"
+          },
+          {
+            "number": 7,
+            "name": "Saptami",
+            "paksha": "Shukla",
+            "start": "20-06-2026 15:47:49",
+            "end": "21-06-2026 15:22:11"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 10,
+            "name": "Magha",
+            "start": "20-06-2026 05:41:34",
+            "end": "20-06-2026 09:25:19"
+          },
+          {
+            "number": 11,
+            "name": "Purva Phalguni",
+            "start": "20-06-2026 09:25:19",
+            "end": "21-06-2026 09:30:56"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 15,
+            "name": "Vajra",
+            "start": "20-06-2026 05:41:34",
+            "end": "20-06-2026 12:46:34"
+          },
+          {
+            "number": 16,
+            "name": "Siddhi",
+            "start": "20-06-2026 12:46:34",
+            "end": "21-06-2026 11:19:41"
+          }
+        ],
+        "karana": [
+          {
+            "number": 12,
+            "name": "Taitila",
+            "start": "20-06-2026 04:18:26",
+            "end": "20-06-2026 15:47:49"
+          },
+          {
+            "number": 13,
+            "name": "Garaja",
+            "start": "20-06-2026 15:47:49",
+            "end": "21-06-2026 05:41:34"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-20_SITALSHASHTHI",
+              "name": "Sitalshashthi",
+              "slug": "sitalshashthi",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "odisha"
+              ],
+              "start": "20-06-2026 05:41:34",
+              "end": "20-06-2026 15:47:49",
+              "duration_note": "10h 6m",
+              "note": "Wedding ceremony of Lord Shiva and Parvati - Jyeshtha Shukla Shashthi"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-21",
+        "weekday": "Sunday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 6,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 6,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "21-06-2026 05:41:46",
+          "set": "21-06-2026 19:15:27",
+          "longitude": 89.67,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "21-06-2026 11:55:32",
+          "set": "22-06-2026 00:15:40",
+          "rashi": "Simha"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21989,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "saptami"
+        ],
+        "tithi": [
+          {
+            "number": 7,
+            "name": "Saptami",
+            "paksha": "Shukla",
+            "start": "21-06-2026 05:41:46",
+            "end": "21-06-2026 15:21:46"
+          },
+          {
+            "number": 8,
+            "name": "Ashtami",
+            "paksha": "Shukla",
+            "start": "21-06-2026 15:21:46",
+            "end": "22-06-2026 15:41:08"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 11,
+            "name": "Purva Phalguni",
+            "start": "21-06-2026 05:41:46",
+            "end": "21-06-2026 09:31:08"
+          },
+          {
+            "number": 12,
+            "name": "Uttara Phalguni",
+            "start": "21-06-2026 09:31:08",
+            "end": "22-06-2026 10:21:46"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 16,
+            "name": "Siddhi",
+            "start": "21-06-2026 05:41:46",
+            "end": "21-06-2026 11:19:16"
+          },
+          {
+            "number": 17,
+            "name": "Vyatipata",
+            "start": "21-06-2026 11:19:16",
+            "end": "22-06-2026 10:28:38"
+          }
+        ],
+        "karana": [
+          {
+            "number": 14,
+            "name": "Vanija",
+            "start": "21-06-2026 03:29:16",
+            "end": "21-06-2026 15:21:46"
+          },
+          {
+            "number": 15,
+            "name": "Vishti",
+            "start": "21-06-2026 15:21:46",
+            "end": "22-06-2026 05:41:46"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-21_SHUKLA_SAPTAMI",
+              "name": "Masik Saptami",
+              "slug": "masik-saptami",
+              "type": "vrat",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "21-06-2026 05:41:46",
+              "end": "21-06-2026 15:21:46",
+              "duration_note": "9h 40m"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-22",
+        "weekday": "Monday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 7,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 7,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "22-06-2026 05:41:59",
+          "set": "22-06-2026 19:15:39",
+          "longitude": 90.63,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "22-06-2026 12:49:22",
+          "set": "23-06-2026 00:47:26",
+          "rashi": "Kanya"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21993,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "ashtami"
+        ],
+        "tithi": [
+          {
+            "number": 8,
+            "name": "Ashtami",
+            "paksha": "Shukla",
+            "start": "22-06-2026 05:41:59",
+            "end": "22-06-2026 15:41:21"
+          },
+          {
+            "number": 9,
+            "name": "Navami",
+            "paksha": "Shukla",
+            "start": "22-06-2026 15:41:21",
+            "end": "23-06-2026 16:41:21"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 12,
+            "name": "Uttara Phalguni",
+            "start": "22-06-2026 05:41:59",
+            "end": "22-06-2026 10:21:59"
+          },
+          {
+            "number": 13,
+            "name": "Hasta",
+            "start": "22-06-2026 10:21:59",
+            "end": "23-06-2026 11:53:14"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 17,
+            "name": "Vyatipata",
+            "start": "22-06-2026 05:41:59",
+            "end": "22-06-2026 10:28:51"
+          },
+          {
+            "number": 18,
+            "name": "Variyan",
+            "start": "22-06-2026 10:28:51",
+            "end": "23-06-2026 10:11:21"
+          }
+        ],
+        "karana": [
+          {
+            "number": 16,
+            "name": "Bava",
+            "start": "22-06-2026 03:26:21",
+            "end": "22-06-2026 15:41:21"
+          },
+          {
+            "number": 17,
+            "name": "Balava",
+            "start": "22-06-2026 15:41:21",
+            "end": "23-06-2026 05:41:59"
+          }
+        ],
+        "festivals": {
+          "total": 2,
+          "data": [
+            {
+              "id": "2026-06-22_SHUKLA_ASHTAMI",
+              "name": "Masik Durgashtami",
+              "slug": "masik-durgashtami",
+              "type": "vrat",
+              "category": "hindu_shakta",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "22-06-2026 05:41:59",
+              "end": "22-06-2026 15:41:21",
+              "duration_note": "9h 59m"
+            },
+            {
+              "id": "2026-06-22_AMBUBACHI_MELA",
+              "name": "Ambubachi Mela",
+              "slug": "ambubachi-mela",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "assam",
+                "northeast-india"
+              ],
+              "start": "22-06-2026 00:00:00",
+              "end": "22-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Kamakhya temple annual fertility festival window."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-23",
+        "weekday": "Tuesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 8,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 8,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "23-06-2026 05:42:13",
+          "set": "23-06-2026 19:15:51",
+          "longitude": 91.58,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "23-06-2026 13:42:15",
+          "set": "24-06-2026 01:19:48",
+          "rashi": "Kanya"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.21996,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "navami"
+        ],
+        "tithi": [
+          {
+            "number": 9,
+            "name": "Navami",
+            "paksha": "Shukla",
+            "start": "23-06-2026 05:42:13",
+            "end": "23-06-2026 16:40:58"
+          },
+          {
+            "number": 10,
+            "name": "Dashami",
+            "paksha": "Shukla",
+            "start": "23-06-2026 16:40:58",
+            "end": "24-06-2026 18:13:28"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 13,
+            "name": "Hasta",
+            "start": "23-06-2026 05:42:13",
+            "end": "23-06-2026 11:53:28"
+          },
+          {
+            "number": 14,
+            "name": "Chitra",
+            "start": "23-06-2026 11:53:28",
+            "end": "24-06-2026 13:58:28"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 18,
+            "name": "Variyan",
+            "start": "23-06-2026 05:42:13",
+            "end": "23-06-2026 10:10:58"
+          },
+          {
+            "number": 19,
+            "name": "Parigha",
+            "start": "23-06-2026 10:10:58",
+            "end": "24-06-2026 10:20:58"
+          }
+        ],
+        "karana": [
+          {
+            "number": 18,
+            "name": "Kaulava",
+            "start": "23-06-2026 04:06:35",
+            "end": "23-06-2026 16:40:58"
+          },
+          {
+            "number": 19,
+            "name": "Taitila",
+            "start": "23-06-2026 16:40:58",
+            "end": "24-06-2026 05:42:13"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-23_AMBUBACHI_MELA",
+              "name": "Ambubachi Mela",
+              "slug": "ambubachi-mela",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "assam",
+                "northeast-india"
+              ],
+              "start": "23-06-2026 00:00:00",
+              "end": "23-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Kamakhya temple annual fertility festival window."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-24",
+        "weekday": "Wednesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 9,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 9,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "24-06-2026 05:42:28",
+          "set": "24-06-2026 19:16:01",
+          "longitude": 92.53,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "24-06-2026 14:35:13",
+          "set": "25-06-2026 01:54:01",
+          "rashi": "Tula"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "dashami"
+        ],
+        "tithi": [
+          {
+            "number": 10,
+            "name": "Dashami",
+            "paksha": "Shukla",
+            "start": "24-06-2026 05:42:28",
+            "end": "24-06-2026 18:13:43"
+          },
+          {
+            "number": 11,
+            "name": "Ekadashi",
+            "paksha": "Shukla",
+            "start": "24-06-2026 18:13:43",
+            "end": "25-06-2026 20:10:35"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 14,
+            "name": "Chitra",
+            "start": "24-06-2026 05:42:28",
+            "end": "24-06-2026 13:58:43"
+          },
+          {
+            "number": 15,
+            "name": "Swati",
+            "start": "24-06-2026 13:58:43",
+            "end": "25-06-2026 16:28:43"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 19,
+            "name": "Parigha",
+            "start": "24-06-2026 05:42:28",
+            "end": "24-06-2026 10:20:35"
+          },
+          {
+            "number": 20,
+            "name": "Shiva",
+            "start": "24-06-2026 10:20:35",
+            "end": "25-06-2026 10:51:13"
+          }
+        ],
+        "karana": [
+          {
+            "number": 20,
+            "name": "Garaja",
+            "start": "24-06-2026 05:23:43",
+            "end": "24-06-2026 18:13:43"
+          },
+          {
+            "number": 21,
+            "name": "Vanija",
+            "start": "24-06-2026 18:13:43",
+            "end": "25-06-2026 05:42:28"
+          }
+        ],
+        "festivals": {
+          "total": 2,
+          "data": [
+            {
+              "id": "2026-06-24_GANGA_DUSSEHRA",
+              "name": "Ganga Dussehra",
+              "slug": "ganga-dussehra",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "24-06-2026 05:42:28",
+              "end": "24-06-2026 18:13:43",
+              "duration_note": "12h 31m",
+              "note": "Descent of Ganga to earth - Jyeshtha Shukla Dashami"
+            },
+            {
+              "id": "2026-06-24_AMBUBACHI_MELA",
+              "name": "Ambubachi Mela",
+              "slug": "ambubachi-mela",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "assam",
+                "northeast-india"
+              ],
+              "start": "24-06-2026 00:00:00",
+              "end": "24-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Kamakhya temple annual fertility festival window."
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-25",
+        "weekday": "Thursday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 10,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 10,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "25-06-2026 05:42:44",
+          "set": "25-06-2026 19:16:11",
+          "longitude": 93.49,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "25-06-2026 15:28:54",
+          "set": "26-06-2026 02:31:12",
+          "rashi": "Tula"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22004,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "ekadashi"
+        ],
+        "tithi": [
+          {
+            "number": 11,
+            "name": "Ekadashi",
+            "paksha": "Shukla",
+            "start": "25-06-2026 05:42:44",
+            "end": "25-06-2026 20:10:51"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 15,
+            "name": "Swati",
+            "start": "25-06-2026 05:42:44",
+            "end": "25-06-2026 16:28:21"
+          },
+          {
+            "number": 16,
+            "name": "Vishakha",
+            "start": "25-06-2026 16:28:21",
+            "end": "26-06-2026 19:15:14"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 20,
+            "name": "Shiva",
+            "start": "25-06-2026 05:42:44",
+            "end": "25-06-2026 10:51:29"
+          },
+          {
+            "number": 21,
+            "name": "Siddha",
+            "start": "25-06-2026 10:51:29",
+            "end": "26-06-2026 11:36:29"
+          }
+        ],
+        "karana": [
+          {
+            "number": 21,
+            "name": "Vanija",
+            "start": "24-06-2026 18:13:59",
+            "end": "25-06-2026 07:09:36"
+          },
+          {
+            "number": 22,
+            "name": "Vishti",
+            "start": "25-06-2026 07:09:36",
+            "end": "26-06-2026 05:42:44"
+          }
+        ],
+        "festivals": {
+          "total": 2,
+          "data": [
+            {
+              "id": "2026-06-25_EKADASHI",
+              "name": "Nirjala Ekadashi",
+              "slug": "nirjala-ekadashi",
+              "type": "major_vrat",
+              "category": "hindu_vaishnava",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "25-06-2026 05:42:44",
+              "end": "25-06-2026 20:10:51",
+              "duration_note": "14h 28m"
+            },
+            {
+              "id": "2026-06-25_AMBUBACHI_MELA",
+              "name": "Ambubachi Mela",
+              "slug": "ambubachi-mela",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "assam",
+                "northeast-india"
+              ],
+              "start": "25-06-2026 00:00:00",
+              "end": "25-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Kamakhya temple annual fertility festival window."
+            }
+          ]
+        },
+        "ekadashi_observance_date": "2026-06-25"
+      },
+      {
+        "date": "2026-06-26",
+        "weekday": "Friday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 11,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 11,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "26-06-2026 05:43:00",
+          "set": "26-06-2026 19:16:19",
+          "longitude": 94.44,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "26-06-2026 16:23:22",
+          "set": "27-06-2026 03:12:18",
+          "rashi": "Tula"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22008,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "dwadashi",
+          "parana"
+        ],
+        "tithi": [
+          {
+            "number": 12,
+            "name": "Dwadashi",
+            "paksha": "Shukla",
+            "start": "26-06-2026 05:43:00",
+            "end": "26-06-2026 22:23:37"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 16,
+            "name": "Vishakha",
+            "start": "26-06-2026 05:43:00",
+            "end": "26-06-2026 19:14:52"
+          },
+          {
+            "number": 17,
+            "name": "Anuradha",
+            "start": "26-06-2026 19:14:52",
+            "end": "27-06-2026 22:10:30"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 21,
+            "name": "Siddha",
+            "start": "26-06-2026 05:43:00",
+            "end": "26-06-2026 11:36:45"
+          },
+          {
+            "number": 22,
+            "name": "Sadhya",
+            "start": "26-06-2026 11:36:45",
+            "end": "27-06-2026 12:29:52"
+          }
+        ],
+        "karana": [
+          {
+            "number": 23,
+            "name": "Bava",
+            "start": "25-06-2026 20:10:30",
+            "end": "26-06-2026 09:15:30"
+          },
+          {
+            "number": 24,
+            "name": "Balava",
+            "start": "26-06-2026 09:15:30",
+            "end": "27-06-2026 05:43:00"
+          }
+        ],
+        "festivals": {
+          "total": 3,
+          "data": [
+            {
+              "id": "2026-06-26_EKADASHI_PARANA",
+              "name": "Ekadashi Parana",
+              "slug": "ekadashi-parana",
+              "type": "vrat",
+              "category": "hindu_vaishnava",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "26-06-2026 05:43:00",
+              "end": "26-06-2026 10:14:06",
+              "duration_note": "4h 31m",
+              "note": "Break Ekadashi fast during parana window (sunrise to 1/3 of daytime or Dwadashi end)"
+            },
+            {
+              "id": "2026-06-26_ASHURA",
+              "name": "Ashura",
+              "slug": "ashura",
+              "type": "major",
+              "category": "islamic",
+              "observed_in": [
+                "pan-india"
+              ],
+              "start": "26-06-2026 00:00:00",
+              "end": "26-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Muharram 10. Observed by Shia Muslims as a day of mourning for Imam Hussain; by Sunni Muslims as a day of voluntary fasting."
+            },
+            {
+              "id": "2026-06-26_PANDHARPUR_WARI",
+              "name": "Pandharpur Wari",
+              "slug": "pandharpur-wari",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "26-06-2026 00:00:00",
+              "end": "26-06-2026 23:59:59",
+              "duration_note": "All day",
+              "note": "Ashadhi Wari pilgrimage marker (Vitthal tradition)."
+            }
+          ]
+        },
+        "parana": {
+          "start": "26-06-2026 05:43:00",
+          "end": "26-06-2026 10:14:06",
+          "note": "Break Ekadashi fast during parana window (sunrise to 1/3 of daytime or Dwadashi end)"
+        }
+      },
+      {
+        "date": "2026-06-27",
+        "weekday": "Saturday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 12,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 12,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "27-06-2026 05:43:17",
+          "set": "27-06-2026 19:16:27",
+          "longitude": 95.4,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "27-06-2026 17:17:59",
+          "set": "28-06-2026 03:57:50",
+          "rashi": "Vrishchika"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22012,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "trayodashi"
+        ],
+        "tithi": [
+          {
+            "number": 13,
+            "name": "Trayodashi",
+            "paksha": "Shukla",
+            "start": "27-06-2026 05:43:17",
+            "end": "28-06-2026 00:44:32"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 17,
+            "name": "Anuradha",
+            "start": "27-06-2026 05:43:17",
+            "end": "27-06-2026 22:10:09"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 22,
+            "name": "Sadhya",
+            "start": "27-06-2026 05:43:17",
+            "end": "27-06-2026 12:30:09"
+          },
+          {
+            "number": 23,
+            "name": "Shubha",
+            "start": "27-06-2026 12:30:09",
+            "end": "28-06-2026 13:27:02"
+          }
+        ],
+        "karana": [
+          {
+            "number": 25,
+            "name": "Kaulava",
+            "start": "26-06-2026 22:23:54",
+            "end": "27-06-2026 11:33:54"
+          },
+          {
+            "number": 26,
+            "name": "Taitila",
+            "start": "27-06-2026 11:33:54",
+            "end": "28-06-2026 05:43:17"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-27_PRADOSH",
+              "name": "Shukra Pradosh",
+              "slug": "shukra-pradosh",
+              "type": "vrat",
+              "category": "hindu_shaiva",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "27-06-2026 17:46:27",
+              "end": "27-06-2026 20:16:27",
+              "duration_note": "2h 30m",
+              "note": "Pradosh: 1.5 hrs before sunset to 1 hr after"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-28",
+        "weekday": "Sunday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 13,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 13,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "28-06-2026 05:43:35",
+          "set": "28-06-2026 19:16:33",
+          "longitude": 96.35,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "28-06-2026 18:11:34",
+          "set": "29-06-2026 04:47:37",
+          "rashi": "Vrishchika"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22015,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "chaturdashi"
+        ],
+        "tithi": [
+          {
+            "number": 14,
+            "name": "Chaturdashi",
+            "paksha": "Shukla",
+            "start": "28-06-2026 05:43:35",
+            "end": "29-06-2026 03:07:57"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 18,
+            "name": "Jyeshtha",
+            "start": "28-06-2026 05:43:35",
+            "end": "29-06-2026 01:07:57"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 23,
+            "name": "Shubha",
+            "start": "28-06-2026 05:43:35",
+            "end": "28-06-2026 13:27:20"
+          },
+          {
+            "number": 24,
+            "name": "Shukla",
+            "start": "28-06-2026 13:27:20",
+            "end": "29-06-2026 14:24:12"
+          }
+        ],
+        "karana": [
+          {
+            "number": 27,
+            "name": "Garaja",
+            "start": "28-06-2026 00:44:50",
+            "end": "28-06-2026 13:56:42"
+          },
+          {
+            "number": 28,
+            "name": "Vanija",
+            "start": "28-06-2026 13:56:42",
+            "end": "29-06-2026 05:43:35"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-28_SHUKLA_CHATURDASHI",
+              "name": "Shukla Chaturdashi",
+              "slug": "shukla-chaturdashi",
+              "type": "vrat",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "28-06-2026 05:43:35",
+              "end": "29-06-2026 03:07:57",
+              "duration_note": "21h 24m"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-29",
+        "weekday": "Monday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 14,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 14,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "29-06-2026 05:43:53",
+          "set": "29-06-2026 19:16:39",
+          "longitude": 97.3,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "29-06-2026 19:02:36",
+          "set": "30-06-2026 05:40:44",
+          "rashi": "Dhanu"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22019,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "shukla_paksha",
+          "purnima"
+        ],
+        "tithi": [
+          {
+            "number": 15,
+            "name": "Purnima",
+            "paksha": "Shukla",
+            "start": "29-06-2026 05:43:53",
+            "end": "30-06-2026 05:27:38"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 19,
+            "name": "Mula",
+            "start": "29-06-2026 05:43:53",
+            "end": "30-06-2026 04:03:15"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 24,
+            "name": "Shukla",
+            "start": "29-06-2026 05:43:53",
+            "end": "29-06-2026 14:23:53"
+          },
+          {
+            "number": 25,
+            "name": "Brahma",
+            "start": "29-06-2026 14:23:53",
+            "end": "30-06-2026 15:16:23"
+          }
+        ],
+        "karana": [
+          {
+            "number": 29,
+            "name": "Vishti",
+            "start": "29-06-2026 03:07:38",
+            "end": "29-06-2026 16:18:15"
+          },
+          {
+            "number": 30,
+            "name": "Bava",
+            "start": "29-06-2026 16:18:15",
+            "end": "30-06-2026 05:43:53"
+          }
+        ],
+        "festivals": {
+          "total": 1,
+          "data": [
+            {
+              "id": "2026-06-29_PURNIMA",
+              "name": "Vat Purnima",
+              "slug": "vat-purnima",
+              "type": "major",
+              "category": "hindu",
+              "observed_in": [
+                "all-india"
+              ],
+              "start": "29-06-2026 05:43:53",
+              "end": "30-06-2026 05:27:38",
+              "duration_note": "23h 43m",
+              "note": "Observed by married women"
+            }
+          ]
+        }
+      },
+      {
+        "date": "2026-06-30",
+        "weekday": "Tuesday",
+        "city": "Ujjain",
+        "city_id": "ujjain",
+        "bengali_date": {
+          "day": 15,
+          "month": "Asharh",
+          "year": 1433
+        },
+        "calendars": {
+          "vikram_samvat": 2083,
+          "shaka_samvat": 1948,
+          "bengali": {
+            "day": 15,
+            "month": "Asharh",
+            "year": 1433
+          }
+        },
+        "sun": {
+          "rise": "30-06-2026 05:44:12",
+          "set": "30-06-2026 19:16:43",
+          "longitude": 98.26,
+          "rashi": "Mithuna"
+        },
+        "moon": {
+          "rise": "30-06-2026 19:49:53",
+          "set": "01-07-2026 06:35:43",
+          "rashi": "Dhanu"
+        },
+        "lunar_month": {
+          "name": "Jyeshtha",
+          "adhik": false
+        },
+        "adhik": false,
+        "lunar_month_label": "Jyeshtha",
+        "lunar_context": {
+          "lunar_month": "Jyeshtha",
+          "is_adhik": false,
+          "adhik": false,
+          "lunar_month_label": "Jyeshtha"
+        },
+        "computation": {
+          "system": "drik",
+          "ayanamsha": "Lahiri",
+          "ayanamsa_value": 24.22023,
+          "coordinate_type": "geocentric",
+          "clipping": "civil_day_sunrise_to_sunrise",
+          "tithi_method": "udaya_tithi",
+          "slots_anchored_at": "sunrise"
+        },
+        "tags": [
+          "krishna_paksha",
+          "pratipada"
+        ],
+        "tithi": [
+          {
+            "number": 16,
+            "name": "Pratipada",
+            "paksha": "Krishna",
+            "start": "30-06-2026 05:44:12",
+            "end": "01-07-2026 07:39:49"
+          }
+        ],
+        "nakshatra": [
+          {
+            "number": 20,
+            "name": "Purva Ashadha",
+            "start": "30-06-2026 05:44:12",
+            "end": "01-07-2026 06:50:27"
+          }
+        ],
+        "yoga": [
+          {
+            "number": 25,
+            "name": "Brahma",
+            "start": "30-06-2026 05:44:12",
+            "end": "30-06-2026 15:16:42"
+          },
+          {
+            "number": 26,
+            "name": "Indra",
+            "start": "30-06-2026 15:16:42",
+            "end": "01-07-2026 16:02:19"
+          }
+        ],
+        "karana": [
+          {
+            "number": 31,
+            "name": "Balava",
+            "start": "30-06-2026 05:27:19",
+            "end": "30-06-2026 18:34:49"
+          },
+          {
+            "number": 32,
+            "name": "Kaulava",
+            "start": "30-06-2026 18:34:49",
+            "end": "01-07-2026 05:44:12"
+          }
+        ],
+        "festivals": {
+          "total": 0,
+          "data": []
+        }
+      }
+    ]
+  },
+  "meta": {
+    "version": "1.0",
+    "computed_at": "2026-06-21T11:04:46.009Z",
+    "resolved_timezone": "Asia/Kolkata",
+    "data_source": "live",
+    "cache_age_seconds": 0
+  },
+  "dev_notes": [],
+  "profile": "emerald",
+  "features": {
+    "muhurat": true,
+    "choghadiya": true,
+    "metadata": true,
+    "monthly_api": true
+  }
+}
